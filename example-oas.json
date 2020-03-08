@@ -1388,28 +1388,10 @@
         "description": ". Test schema interceptors",
         "examples": {
           "example_A": {
-            "value": "{\n" +
-                    "  \"id\": \"id-1\",\n" +
-                    "  \"price\": 5000.00,\n" +
-                    "  \"type\": \"car\",\n" +
-                    "  \"amount\": 3,\n" +
-                    "  \"model\": \"Lenovo\",\n" +
-                    "  \"hasWifi\": false,\n" +
-                    "  \"complex\": {\n" +
-                    "    \"property\": \"value\"\n" +
-                    "  }\n" +
-                    "}"
+            "value": "{\n  \"id\": \"id-1\",\n  \"price\": 5000.00,\n  \"type\": \"car\",\n  \"amount\": 3,\n  \"model\": \"Lenovo\",\n  \"hasWifi\": false,\n  \"complex\": {\n    \"property\": \"value\"\n  }\n}"
           },
           "example_B": {
-            "value": "{\n" +
-                    "  \"id\": \"id-1\",\n" +
-                    "  \"price\": 26000.00,\n" +
-                    "  \"type\": \"car\",\n" +
-                    "  \"amount\": 3,\n" +
-                    "  \"complex\": {\n" +
-                    "    \"property\": \"value\"\n" +
-                    "  }\n" +
-                    "}"
+            "value": "{\n  \"id\": \"id-1\",\n  \"price\": 26000.00,\n  \"type\": \"car\",\n  \"amount\": 3,\n  \"complex\": {\n    \"property\": \"value\"\n  }\n}"
           }
         },
         "allOf": [
